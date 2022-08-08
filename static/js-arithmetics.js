@@ -41,7 +41,7 @@ console.log("\n");
 
 // triangle area calculation
 function areaCalc(triangleBase, height, half) {
-   return (triangleBase * height) / half
+   return (triangleBase * height) * half
 }
 // Append your triangle answer:
 console.log("The area of the given triangle is : " + this.areaCalc(triangleBase, height, half));
